@@ -1,24 +1,58 @@
 # Real-World-Data-Wrangling-with-Python
 
-Main Steps
+Real-world data rarely comes clean. Using Python and its libraries, you will gather related datasets from different sources and formats, assess their quality and tidiness, and perform the necessary cleaning. In this project, you will document your data wrangling process in a Jupyter Notebook and showcase your efforts through analyses and visualizations using Python and its data-focused libraries.
 
-Gather Two Related Datasets
+Dataset 1, Twitter US Airline Sentiment Analysis
+In this study, we analyze a Twitter dataset containing US airline reviews. Our objectives are as follows:
+Overall Sentiment: We aim to determine whether the overall sentiment is more negative or positive
+Airline Rankings: We identify which airline receives the most negative reviews.
+Negative Keywords: We explore keywords associated with negative reviews and suggest improvements.
+Here are our findings:
+•	Sentiment Breakdown:
+o	Negative reviews: 9082
+o	Neutral reviews: 3069
+o	Positive reviews: 2334
+o	Overall, negative reviews outnumber positive ones.
+•	Airline Rankings:
+o	United Airlines has the highest number of negative reviews.
+o	US Airways follows closely in second place.
+o	Virgin America has the fewest negative reviews.
+•	Negative Keywords:
+o	Common negative keywords include “delayed,” “cancelled flights,” “poor customer service,” and “lost.”
+o	All US airlines can enhance their services based on these insights.
+While the dataset is substantial, it’s crucial to consider the volume of data for each airline. For instance, Virgin America has both the fewest negative and positive reviews, but its overall review count is significantly lower than other US airlines. To ensure reliable results, we recommend collecting at least 500 data points for each airline. Additionally, if time permits, grouping data by timeline could provide valuable insights. For example, comparing data from five years ago with the present would offer context for any changes in sentiment over time.
 
-Successfully gather two related datasets using two different data gathering methods (e.g., manual download, programmatic download, APIs, web scraping, databases, etc.).
-Ensure the datasets have a logical connection, such as being complementary in content or sharing a common key for merging.
-Note 1: To meet project requirements, select datasets that have at least 2 quality and 2 tidiness issues. This will allow you to apply the cleaning and wrangling skills needed to meet the project rubric.
-Note 2: The need to merge the datasets indicates an existing data tidiness issue: a single observation is spread across multiple tables. You may include this issue and identify just one more additional data tidiness issue. More information on data tidiness rules is available on Step 2: Assess Data.
-Assess Data for Quality and Tidiness
+Dataset 2. Insights from Electric Vehicle Population Analysis
+In our study of electric vehicle (EV) population data, our objectives are as follows:
+EV Type Popularity: Which one is more popular, battery electric vehicles (BEVs) or plug-in hybrid vehicles (PHEVs)? 
+Top EV Models: Which Vehicle is the most popular one?
+Regional Sales: Which location has the highest sales?
+Our findings:
 
-Evaluate the data according to quality and tidiness metrics, such as missing values, inconsistencies, and structural issues.
-Identify specific areas where data is missing or exhibits inconsistencies that could affect analysis.
-Clean the Data to Resolve Identified Issues
+•	EV Type Popularity:
+o	Battery electric vehicles (BEVs) have consistently outpaced plug-in hybrid vehicles (PHEVs) in popularity.
+o	The peak year for BEV adoption was 1997.
+•	Top EV Models:
+o	Tesla emerges as the most popular EV brand, followed closely by Volvo.
+o	Acura, Ford, and BMW have maintained similar sales figures over the years.
+•	Regional Sales:
+o	King County leads in EV sales, with approximately seven times the sales of the second-ranking county, Clark.
+To enhance the analysis in this study, gathering additional vehicle reviews would provide valuable insights into both advantages and disadvantages. However, the limited availability of price data based on MSRP necessitates further research in the car market. Similarly, the insufficient electric range data should be excluded from the report.
 
-Apply cleaning techniques to address the issues found during assessment, including handling missing values, formatting inconsistencies, and structural improvements to achieve a tidy dataset.
-Update Data Store with Cleaned Data
 
-Save and organize the cleaned data for analysis, ensuring the final datasets are ready for visualization and interpretation.
-Perform Exploratory Data Analysis (EDA)
 
-Generate visualizations and summaries of the cleaned data.
-Answer a brief research question based on insights from the EDA, using appropriate charts and descriptive statistics to support your answer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
